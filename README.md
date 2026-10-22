@@ -75,6 +75,7 @@ npm run dev          # http://localhost:5173
 | `npm run verify:manifests` | Verify the real installability of every deployment. |
 | `npm run verify:links` | Check every external URL and internal route for problems. |
 | `node scripts/inspect-deployments.mjs` | Print the visible text of every live deployment, so descriptions stay accurate. |
+| `node scripts/capture-appverse.mjs` | Screenshot the AppVerse site itself, for a visual check of a change. |
 
 ---
 
