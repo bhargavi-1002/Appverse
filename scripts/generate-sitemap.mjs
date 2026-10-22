@@ -8,7 +8,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const siteUrl = (process.env.VITE_SITE_URL || 'https://appverse.vercel.app').replace(/\/$/, '');
+const siteUrl = (process.env.VITE_SITE_URL || 'https://appverse-rho.vercel.app').replace(/\/$/, '');
 
 const source = await readFile(resolve(root, 'src', 'data', 'apps.ts'), 'utf8');
 const slugs = [...source.matchAll(/slug:\s*'([a-z0-9-]+)'/g)].map((match) => match[1]);

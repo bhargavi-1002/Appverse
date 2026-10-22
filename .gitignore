@@ -52,3 +52,5 @@ Thumbs.db
 # Raw, unoptimised screenshots produced by `npm run capture`.
 # The optimised WebP files in public/screenshots are committed.
 .screenshots-raw/
+
+.vercel

@@ -4,20 +4,12 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
-  "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/((?!assets/|icons/|screenshots/|favicon|icon-|apple-touch-icon|og-image|offline\\.html|robots\\.txt|sitemap\\.xml|manifest\\.webmanifest|sw\\.js|workbox-|registerSW\\.js).*)",
-      "destination": "/index.html"
-    }
-  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
   "headers": [
     {
       "source": "/assets/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
     },
     {
       "source": "/(icon-|apple-touch-icon|og-image|favicon)",
@@ -39,7 +31,10 @@
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
         { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     }
   ]

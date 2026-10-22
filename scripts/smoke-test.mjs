@@ -5,6 +5,7 @@
  * through the primary user flows at desktop and mobile widths.
  *
  * Run with:  node scripts/smoke-test.mjs
+ *            node scripts/smoke-test.mjs --url https://example.com   (live site)
  */
 import { createReadStream, existsSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
@@ -15,6 +16,9 @@ import { chromium } from 'playwright';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dist = resolve(root, 'dist');
 const PORT = 4319;
+
+const urlIndex = process.argv.indexOf('--url');
+const LIVE_URL = urlIndex > -1 ? process.argv[urlIndex + 1] : null;
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -87,14 +91,20 @@ const ROUTES = [
 ];
 
 async function main() {
-  if (!existsSync(join(dist, 'index.html'))) {
+  if (!LIVE_URL && !existsSync(join(dist, 'index.html'))) {
     console.error('dist/ not found — run `npm run build` first.');
     process.exit(1);
   }
 
-  const server = await serve();
-  const base = `http://localhost:${PORT}`;
-  console.log(`Serving dist/ on ${base}\n`);
+  let server = null;
+  let base = LIVE_URL;
+
+  if (!base) {
+    server = await serve();
+    base = `http://localhost:${PORT}`;
+  }
+
+  console.log(`${LIVE_URL ? 'Testing the live site' : 'Serving dist/'} on ${base}\n`);
 
   const browser = await chromium.launch();
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
@@ -236,7 +246,7 @@ async function main() {
   record('no console errors', realErrors.length === 0, realErrors.slice(0, 3).join(' | '));
 
   await browser.close();
-  server.close();
+  server?.close();
 
   console.log(
     `\n${results.length - failures}/${results.length} checks passed${failures ? ` — ${failures} FAILED` : ''}`,

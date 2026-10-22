@@ -5,4 +5,4 @@ Allow: /
 # data, but there is no reason for a crawler to index it.
 Disallow: /dashboard
 
-Sitemap: https://appverse.vercel.app/sitemap.xml
+Sitemap: https://appverse-rho.vercel.app/sitemap.xml

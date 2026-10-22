@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { fileURLToPath, URL } from 'node:url';
 
-const SITE_URL = (process.env.VITE_SITE_URL || 'https://appverse.vercel.app').replace(/\/$/, '');
+const SITE_URL = (process.env.VITE_SITE_URL || 'https://appverse-rho.vercel.app').replace(/\/$/, '');
 
 export default defineConfig({
   resolve: {

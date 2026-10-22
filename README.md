@@ -7,6 +7,8 @@ project has its own page, a live demo, honest installation notes and a link back
 
 Built by **Bhargavi**.
 
+**Live site:** <https://appverse-rho.vercel.app> · **Repository:** <https://github.com/bhargavi-1002/Appverse>
+
 ---
 
 ## What it does
@@ -213,11 +215,15 @@ The project is ready to deploy as-is.
 * long-lived immutable caching for `/assets/*` and a `no-cache` policy for `sw.js`;
 * `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, `Permissions-Policy` and HSTS.
 
+> **Do not enable `cleanUrls`.** With `cleanUrls` on, Vercel serves a 404 for every client-side
+> route and the rewrite is silently dropped — the site works on `/` and breaks everywhere else.
+> This was found by deploying and checking every route, not by reading the docs.
+
 ### Environment variables
 
 | Variable | Required | Purpose |
 | --- | --- | --- |
-| `VITE_SITE_URL` | Production | The canonical origin, used for canonical URLs, Open Graph tags and the sitemap. Defaults to `https://appverse.vercel.app`. |
+| `VITE_SITE_URL` | Production | The canonical origin, used for canonical URLs, Open Graph tags and the sitemap. Defaults to `https://appverse-rho.vercel.app`. |
 | `GITHUB_TOKEN` | No | Server-side only. Raises the GitHub API rate limit for `npm run sync:github`. |
 
 Copy `.env.example` to `.env.local` for local development. **Never commit real values** — `.env*`
