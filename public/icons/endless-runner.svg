@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Endless Runner icon">
+  <defs>
+    <linearGradient id="er-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#26150a"/><stop offset="100%" stop-color="#120a14"/></linearGradient>
+    <linearGradient id="er-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#er-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <path d="M32 44 C 18 44, 18 84, 32 84 H62" fill="none" stroke="url(#er-s)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M96 84 C 110 84, 110 44, 96 44 H66" fill="none" stroke="url(#er-s)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M56 30 L72 44 L56 58" fill="none" stroke="#fb923c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 98 L56 84 L72 70" fill="none" stroke="#fdba74" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

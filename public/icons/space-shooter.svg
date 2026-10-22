@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Space Shooter Pro icon">
+  <defs>
+    <linearGradient id="ss-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#101a3d"/><stop offset="100%" stop-color="#070a18"/></linearGradient>
+    <linearGradient id="ss-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#818cf8"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="ss-flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#ss-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <circle cx="98" cy="30" r="4" fill="#c7d2fe" opacity="0.9"/>
+  <circle cx="26" cy="36" r="2.5" fill="#c7d2fe" opacity="0.6"/>
+  <circle cx="102" cy="74" r="2" fill="#c7d2fe" opacity="0.5"/>
+  <path d="M64 20 L86 66 L64 56 L42 66 Z" fill="url(#ss-s)"/>
+  <path d="M64 56 L74 92 L64 84 L54 92 Z" fill="url(#ss-flame)"/>
+  <circle cx="64" cy="44" r="7" fill="#0b1026"/>
+</svg>

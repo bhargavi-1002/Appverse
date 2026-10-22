@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Neon Snake Pro icon">
+  <defs>
+    <linearGradient id="ns-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#07231a"/><stop offset="100%" stop-color="#06121a"/></linearGradient>
+    <linearGradient id="ns-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#ns-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#ns-s)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 96 V60 a12 12 0 0 1 12 -12 h22 a12 12 0 0 0 12 -12 V30"/>
+  </g>
+  <circle cx="96" cy="30" r="11" fill="#4ade80"/>
+  <circle cx="99" cy="27" r="3.5" fill="#06121a"/>
+  <g fill="#22d3ee" opacity="0.9">
+    <circle cx="52" cy="96" r="4"/>
+    <circle cx="76" cy="96" r="4"/>
+  </g>
+</svg>

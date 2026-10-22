@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Number Guessing Game Pro icon">
+  <defs>
+    <linearGradient id="ng-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1b1440"/><stop offset="100%" stop-color="#0b0a1c"/></linearGradient>
+    <linearGradient id="ng-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#ng-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <circle cx="64" cy="64" r="40" fill="none" stroke="url(#ng-s)" stroke-width="6" opacity="0.35"/>
+  <circle cx="64" cy="64" r="26" fill="none" stroke="url(#ng-s)" stroke-width="6" opacity="0.6"/>
+  <circle cx="64" cy="64" r="13" fill="url(#ng-s)"/>
+  <path d="M64 16 v10 M64 102 v10 M16 64 h10 M102 64 h10" stroke="#a78bfa" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+</svg>

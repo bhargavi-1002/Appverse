@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# The owner dashboard is a local, device-only editor. It holds no server-side
+# data, but there is no reason for a crawler to index it.
+Disallow: /dashboard
+
+Sitemap: https://appverse.vercel.app/sitemap.xml

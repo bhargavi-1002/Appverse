@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-10-22T04:54:25.221Z",
+  "repositories": {
+    "cyber-runner": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/cyber-runner",
+      "owner": "bhargavi-1002",
+      "repo": "cyber-runner",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "endless-runner": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/ENDLESS-RUNNER",
+      "owner": "bhargavi-1002",
+      "repo": "ENDLESS-RUNNER",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "memory-card-game": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/memory-card-game",
+      "owner": "bhargavi-1002",
+      "repo": "memory-card-game",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "number-guessing": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/number-guessing",
+      "owner": "bhargavi-1002",
+      "repo": "number-guessing",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "snake-game": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/snake-game",
+      "owner": "bhargavi-1002",
+      "repo": "snake-game",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "space-shooter": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/space-shooter",
+      "owner": "bhargavi-1002",
+      "repo": "space-shooter",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "tic-tak-toe": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/tic-tac-toe",
+      "owner": "bhargavi-1002",
+      "repo": "tic-tac-toe",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "chrono-drift": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/time-traveler-game",
+      "owner": "bhargavi-1002",
+      "repo": "time-traveler-game",
+      "available": true,
+      "fullName": "bhargavi-1002/time-traveler-game",
+      "description": "An interactive time-travel adventure game with beautiful graphics and engaging puzzles",
+      "homepage": null,
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "license": null,
+      "defaultBranch": "main",
+      "pushedAt": "2026-10-11T12:13:16Z",
+      "updatedAt": "2026-10-11T12:13:20Z",
+      "archived": false,
+      "releases": [],
+      "latestRelease": null
+    },
+    "battery-buddy": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/BATTERY-BUDDY-2.0",
+      "owner": "bhargavi-1002",
+      "repo": "BATTERY-BUDDY-2.0",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    },
+    "connect": {
+      "repositoryUrl": "https://github.com/bhargavi-1002/Connect",
+      "owner": "bhargavi-1002",
+      "repo": "Connect",
+      "available": false,
+      "reason": "Repository not found or not publicly visible."
+    }
+  }
+}

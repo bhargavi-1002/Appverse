@@ -1,0 +1,54 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build output
+dist
+dist-ssr
+build
+*.local
+
+# Test output
+coverage
+.vitest
+
+# Environment — never commit secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel
+.vercel
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Local caches
+.cache
+.vite
+
+# Raw, unoptimised screenshots produced by `npm run capture`.
+# The optimised WebP files in public/screenshots are committed.
+.screenshots-raw/

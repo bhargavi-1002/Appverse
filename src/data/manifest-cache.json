@@ -1,0 +1,287 @@
+{
+  "generatedAt": "2026-10-22T07:28:45.630Z",
+  "apps": {
+    "cyber-runner": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "endless-runner": {
+      "status": "not-installable",
+      "manifestUrl": "https://endless-runner.vercel.app/manifest.json",
+      "manifestName": "Create React App Sample",
+      "manifestDisplay": "standalone",
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": true,
+          "detail": "A manifest was found at https://endless-runner.vercel.app/manifest.json."
+        },
+        {
+          "id": "name",
+          "label": "Named application",
+          "passed": true,
+          "detail": "The manifest names the app \"Create React App Sample\"."
+        },
+        {
+          "id": "start-url",
+          "label": "Start URL",
+          "passed": true,
+          "detail": "The app starts from .."
+        },
+        {
+          "id": "display",
+          "label": "Standalone display mode",
+          "passed": true,
+          "detail": "The manifest requests \"standalone\" mode."
+        },
+        {
+          "id": "icons",
+          "label": "Launcher icons (192px and 512px)",
+          "passed": true,
+          "detail": "The manifest ships both a 192px and a 512px icon."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "memory-card-game": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "number-guessing": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "snake-game": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "space-shooter": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "tic-tak-toe": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "time-traveler": {
+      "status": "not-installable",
+      "manifestUrl": null,
+      "manifestName": null,
+      "manifestDisplay": null,
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": false,
+          "detail": "No web app manifest was found at the standard paths, so the browser will not offer an install prompt for this app."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    },
+    "connect": {
+      "status": "not-installable",
+      "manifestUrl": "https://connect.vercel.app/manifest.json",
+      "manifestName": "Create React App Sample",
+      "manifestDisplay": "standalone",
+      "criteria": [
+        {
+          "id": "https",
+          "label": "Served over HTTPS",
+          "passed": true,
+          "detail": "The deployment uses a secure origin, which browsers require for installation."
+        },
+        {
+          "id": "manifest",
+          "label": "Web app manifest",
+          "passed": true,
+          "detail": "A manifest was found at https://connect.vercel.app/manifest.json."
+        },
+        {
+          "id": "name",
+          "label": "Named application",
+          "passed": true,
+          "detail": "The manifest names the app \"Create React App Sample\"."
+        },
+        {
+          "id": "start-url",
+          "label": "Start URL",
+          "passed": true,
+          "detail": "The app starts from .."
+        },
+        {
+          "id": "display",
+          "label": "Standalone display mode",
+          "passed": true,
+          "detail": "The manifest requests \"standalone\" mode."
+        },
+        {
+          "id": "icons",
+          "label": "Launcher icons (192px and 512px)",
+          "passed": true,
+          "detail": "The manifest ships both a 192px and a 512px icon."
+        },
+        {
+          "id": "service-worker",
+          "label": "Service worker and install prompt",
+          "passed": false,
+          "detail": "No service worker is registered, and browsers require one with a fetch handler before they will offer an install prompt."
+        }
+      ]
+    }
+  }
+}

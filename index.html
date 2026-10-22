@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>AppVerse — Your apps. Your ecosystem. One destination.</title>
+    <meta
+      name="description"
+      content="AppVerse is a personal application marketplace: browse every project in one place, open the apps live in your browser, and install the ones that support installation."
+    />
+    <meta name="theme-color" content="#06070f" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="author" content="Bhargavi" />
+    <meta name="application-name" content="AppVerse" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AppVerse" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#7c5cff" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AppVerse" />
+    <meta property="og:title" content="AppVerse — Your apps. Your ecosystem. One destination." />
+    <meta
+      property="og:description"
+      content="A marketplace for every application Bhargavi builds: browse them, open them live, and install the ones that support it."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      // Apply the saved theme before first paint so there is no flash of the
+      // wrong colour scheme.
+      (function () {
+        try {
+          var stored = localStorage.getItem('appverse:theme');
+          var prefersDark =
+            !window.matchMedia || window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var resolved =
+            stored === 'light' ? 'light' : stored === 'dark' ? 'dark' : prefersDark ? 'dark' : 'light';
+          if (resolved === 'light') {
+            document.documentElement.classList.add('light');
+          }
+          document.documentElement.style.colorScheme = resolved;
+        } catch (error) {
+          /* storage can be blocked — the default theme is fine */
+        }
+      })();
+    </script>
+
+    <style>
+      #root:empty::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: #06070f;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif; color: #eceefb; background: #06070f">
+        <h1 style="font-size: 1.5rem; margin: 0 0 0.5rem">AppVerse needs JavaScript</h1>
+        <p style="margin: 0; color: #9aa1c4">
+          The marketplace catalogue runs in the browser. Please enable JavaScript to browse the
+          applications.
+        </p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

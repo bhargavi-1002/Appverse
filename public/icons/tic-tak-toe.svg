@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Cyber Tic Tac Toe Pro icon">
+  <defs>
+    <linearGradient id="tt-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2b0f26"/><stop offset="100%" stop-color="#12070f"/></linearGradient>
+    <linearGradient id="tt-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#tt-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <g stroke="#f472b6" stroke-opacity="0.32" stroke-width="4" stroke-linecap="round">
+    <path d="M26 46 H102"/><path d="M26 64 H102"/><path d="M26 82 H102"/>
+    <path d="M46 26 V102"/><path d="M64 26 V102"/><path d="M82 26 V102"/>
+  </g>
+  <path d="M52 52 L74 74 M74 52 L52 74" stroke="url(#tt-s)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="64" cy="55" r="13" fill="none" stroke="#22d3ee" stroke-width="8"/>
+</svg>

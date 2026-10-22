@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Cyber Runner X icon">
+  <defs>
+    <linearGradient id="cr-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1a2e"/><stop offset="100%" stop-color="#070b18"/></linearGradient>
+    <linearGradient id="cr-s" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22d3ee"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="cr-p" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f472b6"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#cr-bg)"/>
+  <rect x="0.75" y="0.75" width="126.5" height="126.5" rx="29.5" fill="none" stroke="#fff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <g stroke="#22d3ee" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round">
+    <path d="M16 46h22"/><path d="M10 64h30"/><path d="M20 82h20"/>
+  </g>
+  <path d="M62 98 L74 28 L90 44 L100 36 L94 60 L80 62 L72 98 Z" fill="url(#cr-s)"/>
+  <path d="M74 28 L90 44 L100 36 L94 60 L80 62 Z" fill="url(#cr-p)" fill-opacity="0.9"/>
+  <circle cx="62" cy="98" r="7" fill="#f472b6"/>
+</svg>
